@@ -1,0 +1,156 @@
+.wd-search-nav {
+  display: flex;
+}
+.wd-tweet-E-right,
+.wd-tweet-D-right {
+  width: 60px;
+  height: 60px;
+}
+
+.wd-tweet-E-right,
+.wd-tweet-D-right {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.wd-tweet-E-right img,
+.wd-tweet-D-right img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.wd-search-bar {
+  width: -webkit-fill-available;
+  margin-right: 30px;
+  position: relative;
+  padding-left: 16px;
+}
+
+.wd-search-bar input[type='submit'] {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  background-image: url('icons/search.png');
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  background-color: rgb(54 54 54);
+  width: 20px;
+}
+
+.wd-search-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wd-search-bar input[type='text'] {
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(54 54 54);
+  padding: 10px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.wd-settings-link img {
+  max-width: 20px;
+  margin-right: 12px;
+}
+
+.wd-tab-list {
+  color: white;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  border-bottom: rgb(47, 51, 54) 2px solid;
+  padding: 0;
+}
+
+.wd-tab-list li {
+  color: rgb(110 118 125);
+  font-size: 15px;
+  padding: 16px;
+  font-weight: bold;
+}
+
+.wd-grey-space {
+  width: 100%;
+  height: 10px;
+  background: rgb(47 51 54 / 46%);
+}
+
+.active::after {
+  content: '';
+}
+
+.wd-tweet-content-C,
+.wd-tweet-content-D,
+.wd-tweet-content-E {
+  padding: 16px;
+  color: rgb(110 118 125);
+  font-size: 13px;
+}
+
+.wd-tweetheading {
+  color: white;
+  font-weight: 500;
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wd-subHeading {
+  margin: 0;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.wd-tweet-content-D,
+.wd-tweet-content-E {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.wd-tweet-E-right,
+.wd-tweet-D-right,
+.wd-tweet-E-right img,
+.wd-tweet-D-right img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-width: 100px;
+}
+
+.wd-source {
+  color: white;
+  font-weight: bold;
+}
+
+.wd-tweets,
+.wd-tweet-content-C {
+  position: relative;
+}
+
+.wd-readmore-dots img {
+  width: 100%;
+}
+
+.wd-readmoretweet-dots {
+  position: absolute;
+  display: flex;
+  right: 10px;
+  width: 33px;
+}
+
+.wd-readmoretweet-dots img {
+  width: 100%;
+  transform: rotate(90deg);
+}

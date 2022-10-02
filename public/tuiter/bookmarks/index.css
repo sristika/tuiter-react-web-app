@@ -1,0 +1,111 @@
+body {
+  color: lightgray;
+}
+
+.wd-bookmarks-header {
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wd-header-left h1 {
+  color: white;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.wd-header-left span {
+  color: lightgray;
+  font-size: 13px;
+}
+
+.wd-bookmark-content {
+  padding: 12px 16px;
+  display: flex;
+  column-gap: 12px;
+}
+
+.wd-bookmark-content p {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  max-width: 506px;
+  margin-bottom: 16px;
+  margin-top: 12px;
+}
+
+.wd-bookmark-avatar {
+  width: 48px;
+  height: 48px;
+}
+
+.wd-bookmark-author,
+.wd-bookmark-author-handle {
+  font-size: 15px;
+}
+
+.wd-bookmark-author {
+  color: white;
+}
+
+.wd-bookmark-box-content {
+  border: rgb(47, 51, 54) 1px solid;
+  border-radius: 20px;
+}
+
+.wd-bookmark-box-content img {
+  width: 100%;
+}
+
+.wd-bookmark-content-right {
+  width: -webkit-fill-available;
+}
+
+.wd-bookmark-box-content img {
+  border-radius: 20px 20px 0 0;
+  height: 264px;
+  object-fit: cover;
+}
+
+.wd-bookmark-box-content {
+  max-width: 504px;
+}
+
+.wd-readmorebookmarks-dots img {
+  width: 20px;
+}
+
+h2.wd-box-head {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+p.wd-box-content {
+  color: grey;
+  margin: 0;
+}
+
+.wd-box-writing {
+  padding: 12px;
+}
+
+.wd-icon-container.active {
+  color: red;
+}
+
+.wd-icon-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 506px;
+}
+
+.wd-icon-container {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin: 12px 0;
+}
