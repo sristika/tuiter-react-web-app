@@ -55,6 +55,7 @@
   padding: 10px;
   padding-left: 50px;
   box-sizing: border-box;
+  color: white;
 }
 
 .wd-settings-link img {
@@ -70,6 +71,13 @@
   justify-content: space-between;
   border-bottom: rgb(47, 51, 54) 2px solid;
   padding: 0;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .wd-tab-list {
+    justify-content: left;
+  }
 }
 
 .wd-tab-list li {
@@ -119,6 +127,15 @@
   column-gap: 40px;
 }
 
+@media (max-width: 768px) {
+  .wd-tweet-content-D,
+  .wd-tweet-content-E {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+    align-items: baseline;
+  }
+}
+
 .wd-tweet-E-right,
 .wd-tweet-D-right,
 .wd-tweet-E-right img,
@@ -153,4 +170,17 @@
 .wd-readmoretweet-dots img {
   width: 100%;
   transform: rotate(90deg);
+}
+
+li.wd-active {
+  color: #69b9ff;
+}
+
+.wd-active .wd-underline {
+  background-color: #69b9ff;
+  height: 3px;
+  border-radius: 2px;
+  width: inherit;
+  position: relative;
+  top: 16px;
 }
