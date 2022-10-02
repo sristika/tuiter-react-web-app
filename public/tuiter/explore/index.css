@@ -173,11 +173,11 @@
 }
 
 li.wd-active {
-  color: #69b9ff;
+  color: rgb(29, 161, 242);
 }
 
 .wd-active .wd-underline {
-  background-color: #69b9ff;
+  background-color: rgb(29, 161, 242);
   height: 3px;
   border-radius: 2px;
   width: inherit;
