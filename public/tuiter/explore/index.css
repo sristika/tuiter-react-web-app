@@ -24,11 +24,54 @@
   width: unset;
 }
 
-/* .wd-override-bs {
+.wd-override-bs:not(.btn) {
   background-color: black;
 }
 
-.wd-override-bs * {
+.wd-override-bs *:not(.btn, .wd-list-bg-color *, .wd-spaceX-text) {
   color: white;
   background-color: black;
-} */
+}
+
+.wd-middle-content .list-group-item {
+  border: 1px solid rgb(52, 58, 63);
+}
+
+.wd-middle-content-wrap {
+  border-left: 1px solid rgb(52, 58, 63);
+  border-right: 1px solid rgb(52, 58, 63);
+}
+.wd-middle-content-wrap .nav-link,
+.wd-middle-content-wrap .nav-link.active {
+  font-size: 14px;
+  color: rgba(108, 117, 125) !important;
+  background-color: unset;
+  border-color: unset;
+  border: none;
+}
+
+.wd-middle-content-wrap .nav-tabs {
+  border: none;
+}
+
+.wd-list-bg-color * {
+  background-color: rgb(23, 24, 28);
+}
+
+.wd-list-bg-color *:not(.text-secondary, .btn) {
+  color: white;
+}
+
+.wd-middle-content-wrap .form-control {
+  background-color: rgb(23, 24, 28);
+  border: none;
+}
+
+.wd-active .wd-underline {
+  background-color: rgb(29, 161, 242);
+  height: 3px;
+  border-radius: 2px;
+  width: inherit;
+  position: relative;
+  top: 1px;
+}
