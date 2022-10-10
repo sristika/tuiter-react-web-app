@@ -21,6 +21,12 @@
   left: 13px;
 }
 
+@media (max-width: 768px) {
+  .wd-cog {
+    left: 0;
+  }
+}
+
 .wd-follow-btn {
   width: unset;
 }
@@ -50,6 +56,10 @@
   background-color: unset;
   border-color: unset;
   border: none;
+}
+
+.wd-middle-content-wrap .nav-link.active {
+  color: white !important;
 }
 
 .wd-middle-content-wrap .nav-tabs {
