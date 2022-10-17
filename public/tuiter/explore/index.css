@@ -36,7 +36,8 @@
 }
 
 .wd-override-bs
-  *:not(.btn, .wd-list-bg-color, .wd-list-bg-color *, .wd-spaceX-text) {
+  *:not(.btn, .wd-list-bg-color, .wd-list-bg-color
+    *, .wd-spaceX-text, .wd-nav-items) {
   color: white;
   background-color: black;
 }
