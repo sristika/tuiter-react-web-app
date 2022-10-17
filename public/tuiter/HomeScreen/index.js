@@ -1,5 +1,6 @@
 import NavigationSidebar from '../NavigationSidebar/index.js';
 import PostSummaryList from '../PostSummaryList/index.js';
+import PostList from '../PostList/index.js';
 
 function homeScreenComponent() {
   $('#wd-home').append(`
@@ -9,7 +10,7 @@ function homeScreenComponent() {
     ${NavigationSidebar('home')}
     </div>
     <div class="col-xl-6 col-lg-7 col-10 wd-middle-content-wrap p-0">
-     Explore
+    ${PostList()}
     </div>
     <div class="col-lg-4 ps-3 mt-3 d-none d-lg-block">
       ${PostSummaryList()}
