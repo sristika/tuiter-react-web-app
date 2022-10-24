@@ -1,6 +1,6 @@
 [
   {
-    "avatarImg": "../images/profile-picture.jpeg",
+    "avatarImg": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "author": "Robert Pattinson",
     "handle": "@robert-zubrin",
     "time": "23h",
@@ -8,22 +8,25 @@
     "contentheading": "Lorem ipsum dolor sit amet Mauris interdum...",
     "content":
       "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
-    "image": "../images/pexels-fox-1595391.jpg",
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFubmVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
     "commentsNums": "4.2k",
     "shareNums": "3.4k",
     "likeNums": "5k",
     "_id":1
   },
   {
-    "avatarImg": "../images/batman.jpg",
-    "author": "Elon Mask",
+    "avatarImg": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "author": "Robert Bret",
     "handle": "@robert-zubrin",
-    "time": "2h",
-    "comment": "Inspirational mission to space",
-    "image": "../images/banner-img.webp",
-    "commentsNums": "82k",
-    "shareNums": "37.5k",
-    "likeNums": "5k",
-    "_id":2
+    "time": "23h",
+    "comment": "Amazing show about xyz",
+    "contentheading": "Lorem ipsum dolor sit amet Mauris interdum...",
+    "content":
+      "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+    "image": "https://www.bannerbatterien.com/upload/filecache/Banner-Batterien-Windrder2-web_06b2d8d686e91925353ddf153da5d939.webp",
+    "commentsNums": "4.2k",
+    "shareNums": "3.9k",
+    "likeNums": "897k",
+    "_id":1
   }
 ]

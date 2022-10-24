@@ -2,12 +2,19 @@ body {
   color: gray;
 }
 
+.wd-nav-items {
+  color: rgb(194, 194, 194);
+}
+.wd-nav-items.fw-bolder {
+  color: rgb(255, 255, 255);
+}
+
 .wd-bookmarks-wrap {
   padding-top: 0;
 }
 
 .wd-border-bottom-1px {
-  border-bottom: rgb(47, 51, 54) 1px solid;
+  border-bottom: rgb(187, 187, 187) 1px solid;
 }
 
 .fa-check-circle::before {
@@ -19,8 +26,8 @@ body {
 }
 
 .wd-side-borders {
-  border-left: rgb(47, 51, 54) 1px solid;
-  border-right: rgb(47, 51, 54) 1px solid;
+  border-left: rgb(186, 186, 186) 1px solid;
+  border-right: rgb(186, 186, 186) 1px solid;
 }
 
 .wd-bookmarks-header {
@@ -47,7 +54,7 @@ body {
 }
 
 .wd-bookmark p {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 15px;
   margin: 0;
   max-width: 506px;
@@ -66,12 +73,12 @@ body {
 }
 
 .wd-bookmark-author {
-  color: white;
+  color: black;
   display: inline;
 }
 
 .wd-bookmark-box-content {
-  border: rgb(47, 51, 54) 1px solid;
+  border: rgb(192, 192, 192) 1px solid;
   border-radius: 20px;
 }
 
@@ -103,7 +110,7 @@ h2.wd-box-head {
   margin-bottom: 8px;
   font-size: 15px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 p.wd-box-content {
