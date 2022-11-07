@@ -9,7 +9,9 @@ const NavigationSidebar = () => {
     <div className="list-group">
       <Link
         to="/tuiter/home"
-        className={`list-group-item ${active === 'home' ? 'active' : ''}`}
+        className={`list-group-item ${
+          active === 'home' || active === '' ? 'active' : ''
+        }`}
         href="./HomeScreen/index.html"
       >
         Home
@@ -56,9 +58,9 @@ const NavigationSidebar = () => {
       </Link>
 
       <Link
-        to="/"
+        to="/tuiter/profile"
         className={`list-group-item ${active === 'profile' ? 'active' : ''}`}
-        href="profile.html"
+        href="./profile/index.html"
       >
         Profile
       </Link>

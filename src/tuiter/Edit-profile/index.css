@@ -1,0 +1,13 @@
+.wd-edit {
+  right: 20px;
+  top: 10px;
+}
+
+.wd-edit-forms {
+  position: relative;
+  top: 100px;
+}
+
+.wd-editProfile-textarea {
+  height: 100px !important;
+}
