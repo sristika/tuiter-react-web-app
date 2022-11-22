@@ -1,7 +1,11 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { updateTuitThunk } from '../../services/tuits-thunks';
 
 const TuitStats = ({ tuit }) => {
   const liked = tuit.liked ? 'red' : ' ';
+  const dispatch = useDispatch();
+
   const likeIcon = tuit.liked
     ? 'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/heart-icon-design-template-7582e2dfe68c75576eeec72967453753_screen.jpg?ts=1624545175'
     : 'https://icones.pro/wp-content/uploads/2021/02/icone-de-coeur-gris-1.png';
@@ -22,8 +26,36 @@ const TuitStats = ({ tuit }) => {
         <span>{tuit.retuits}</span>
       </a>
       <a href="#" className="wd-icon-container">
-        <img src={likeIcon} width="15px" />
+        <img
+          onClick={() =>
+            dispatch(
+              updateTuitThunk({
+                ...tuit,
+                likes: tuit.likes + 1,
+                liked: true,
+              })
+            )
+          }
+          src={likeIcon}
+          width="15px"
+        />
         <span style={{ color: liked }}>{tuit.likes}</span>
+      </a>
+      <a href="#" className="wd-icon-container">
+        <img
+          style={{ cursor: 'pointer' }}
+          onClick={() =>
+            dispatch(
+              updateTuitThunk({
+                ...tuit,
+                dislikes: tuit.dislikes + 1,
+              })
+            )
+          }
+          src="https://images.assetsdelivery.com/compings_v2/chatchaithep/chatchaithep2101/chatchaithep210100166.jpg"
+          width="20px"
+        />
+        <span>{tuit.dislikes}</span>
       </a>
       <a href="#" className="wd-icon-container">
         <img
