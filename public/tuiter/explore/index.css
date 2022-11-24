@@ -1,0 +1,128 @@
+.wd-avatar-image {
+  object-fit: cover;
+}
+
+.wd-avatar-container {
+  width: 48px;
+  height: 48px;
+}
+
+.wb-search-magnifier {
+  top: 7px;
+  left: 28px;
+}
+
+.wd-spaceX-text {
+  left: 10px;
+}
+.wd-cog {
+  font-size: 20px;
+  top: 5px;
+  left: 13px;
+}
+
+@media (max-width: 768px) {
+  .wd-cog {
+    left: 0;
+  }
+}
+
+.wd-follow-btn {
+  width: unset;
+}
+
+.wd-override-bs:not(.btn) {
+  background-color: black;
+}
+
+.wd-override-bs
+  *:not(.btn, .wd-list-bg-color, .wd-list-bg-color
+    *, .wd-spaceX-text, .wd-nav-items) {
+  color: white;
+  background-color: black;
+}
+
+.wd-middle-content .list-group-item {
+  border: 1px solid rgb(52, 58, 63);
+}
+
+.wd-middle-content-wrap {
+  border-left: 1px solid rgb(52, 58, 63);
+  border-right: 1px solid rgb(52, 58, 63);
+}
+.wd-middle-content-wrap .nav-link,
+.wd-middle-content-wrap .nav-link.active {
+  font-size: 14px;
+  color: rgba(108, 117, 125) !important;
+  background-color: unset;
+  border-color: unset;
+  border: none;
+}
+
+.wd-middle-content-wrap .nav-link.active {
+  color: white !important;
+}
+
+.wd-middle-content-wrap .nav-tabs {
+  border: none;
+}
+
+.wd-list-bg-color *,
+.wd-list-bg-color {
+  background-color: rgb(23, 24, 28);
+}
+
+.wd-list-bg-color *:not(.text-secondary, .btn) {
+  color: white;
+}
+
+.wd-middle-content-wrap .form-control {
+  background-color: rgb(23, 24, 28);
+  border: none;
+}
+
+.wd-active .wd-underline {
+  background-color: rgb(29, 161, 242);
+  height: 3px;
+  border-radius: 2px;
+  width: inherit;
+  position: relative;
+  top: 1px;
+}
+
+.wd-faded-text {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.wd-show-more {
+  color: rgb(29, 161, 242) !important;
+  text-decoration: none;
+}
+
+.wd-tweet-btn {
+  background-color: rgb(29, 161, 242);
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .wd-tweet-btn {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .wd-tweet-btn {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wd-tweet-btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.wd-right-block {
+  border-radius: 20px;
+}
